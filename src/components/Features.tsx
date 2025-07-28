@@ -4,24 +4,34 @@ import React, { useEffect, ReactNode } from "react";
 import { motion, useAnimation, Variants } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-import Interfaceimage1 from "../assets/Interfaceimage1.png";
-import Interfaceimage2 from "../assets/Interfaceimage2.png";
-import Interfaceimage3 from "../assets/Interfaceimage3.png";
+import Interfaceimage1 from "@/assets/Interfaceimage1.png";
+import Interfaceimage2 from "@/assets/Interfaceimage2.png";
+import Interfaceimage3 from "@/assets/Interfaceimage3.png";
 
-import DataImage2 from "../assets/Dataimage-2.png";
-import DataImage3 from "../assets/Dataimage-1.png";
-import DataImage4 from "../assets/Dataimage-4.jpeg";
+import DataImage2 from "@/assets/Dataimage-2.png";
+import DataImage3 from "@/assets/Dataimage-1.png";
+import DataImage4 from "@/assets/Dataimage-4.jpeg";
 
+import Quotesimage1 from "@/assets/Quotesimage1.png";
+import Quotesimage2 from "@/assets/Quotesimage2.png";
 
-import Quotesimage1 from "../assets/Quotesimage1.png";
-import Quotesimage2 from "../assets/Quotesimage2.png";
+import salesTeamImage from "@/assets/salesTeamImage.png";
+import image1 from "@/assets/icon1.png"
+import image2 from "@/assets/icon2.png"
+import image3 from "@/assets/icon3.png"
+import image4 from "@/assets/icon4.png"
 
+import Interface from "@/assets/videos/InterfaceVideo2.jpg"
+import InterfaceVideo from "@/assets/videos/InterfaceVideo2.mp4"
 
-import salesTeamImage from "../assets/salesTeamImage.png";
-import image1 from "../assets/icon1.png"
-import image2 from "../assets/icon2.png"
-import image3 from "../assets/icon3.png"
-import image4 from "../assets/icon4.png"
+import DataPoster from "@/assets/videos/DataVideo2.jpg"
+import DataVideo from "@/assets/videos/DataVideo2.mp4"
+
+import QuotesPoster from "@/assets/videos/QuotesVideo2.jpg"
+import QuotesVideo from "@/assets/videos/QuotesVideo2.mp4"
+
+import salesTeam from "@/assets/videos/salesTeamVideo2.jpg"
+import salesTeamVideo from "@/assets/videos/salesTeamVideo2.mp4"
 
 import Image from "next/image";
 import { useLocale, useTranslations } from "next-intl";
@@ -207,8 +217,8 @@ export default function Features() {
                   >
                     <video
                       className="w-[600px] object-center  shadow-lg rounded-sm md:rounded-lg"
-                      poster="/videos/InterfaceVideo2.jpg"
-                      src="/videos/InterfaceVideo2.mp4"
+                      poster={Interface.src}
+                      src={InterfaceVideo}
                       autoPlay
                       muted
                       loop
@@ -296,8 +306,8 @@ export default function Features() {
               >
                 <video
                   className=" w-[355px] smm:w-[360px] sml:w-[380px] md:w-[450px] xl:w-[550px] xxl:w-[600px]   shadow-lg object-center rounded-[5px]"
-                  poster="/videos/DataVideo2.jpg"
-                  src="/videos/DataVideo2.mp4"
+                  poster={DataPoster.src}
+                  src={DataVideo}
                   autoPlay
                   muted
                   loop
@@ -330,8 +340,8 @@ export default function Features() {
               >
                 <video
                   className="w-[355px] smm:w-[360px] sml:w-[380px] md:w-[450px] xl:w-[550px] xxl:w-full h-full object-center rounded-[5px]  shadow-lg "
-                  poster="/videos/QuotesVideo2.jpg"
-                  src="/videos/QuotesVideo2.mp4"
+                  poster={QuotesPoster.src}
+                  src={QuotesVideo}
                   autoPlay
                   muted
                   loop
@@ -425,8 +435,8 @@ export default function Features() {
               >
                 <video
                   className=" w-[355px] smm:w-[360px] sml:w-[380px] md:w-[450px] lg:w-[450px] xl:w-[550px] xxl:w-[650px] 2xl:w-full h-full object-center  shadow-lg rounded-[5px]"
-                  poster="/videos/salesTeamVideo2.jpg"
-                  src="/videos/salesTeamVideo2.mp4"
+                  poster={salesTeam.src}
+                  src={salesTeamVideo}
                   autoPlay
                   muted
                   loop
