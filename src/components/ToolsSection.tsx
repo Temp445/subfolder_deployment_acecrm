@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import excel from "../assets/excel.png";
+import excel from "@/assets/excel.png";
 import { useTranslations } from "next-intl";
 
 export default function ToolsSection() {

@@ -30,7 +30,7 @@ const CalendlyEmbed = () => {
         <Header />
       </div>
       <div className="bg-gray-900 " >
-        <h1 className="mt-2 pt-8 text-xl md:text-2xl font-bold md:font-extrabold  text-center text-shadow-lg/20 text-white">{t('BookADemo')}</h1>
+        <h1 className=" pt-8 text-xl md:text-2xl font-bold md:font-extrabold  text-center text-shadow-lg/20 text-white">{t('BookADemo')}</h1>
         <div className="pb-32">
           <InlineWidget url={url}
             styles={{ height: '700px' }} />

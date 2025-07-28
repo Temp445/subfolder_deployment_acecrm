@@ -56,7 +56,7 @@ const handleLocaleChange = (locale: string) => {
 
   return (
     <>
-      <nav className=" container mx-auto hidden md:flex items-center justify-between md:pt-1.5 pb-2  px-4 md:px-0  relative">
+      <nav className=" container mx-auto hidden md:flex items-center justify-between md:pt-1.5 pb-2  px-4 md:px-0  relative border-b-2 ">
       <div className="flex gap-5">
           <div className="md:flex items-center hidden ">
           <Link href="https://acesoft.in/" className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">

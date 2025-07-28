@@ -3,7 +3,7 @@
 import React, { useState } from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
-import logo from "../assets/AceLogo.png";
+import logo from "@/assets/AceLogo.png";
 import { LuLogIn } from "react-icons/lu";
 import { RiContactsLine } from "react-icons/ri";
 import { TbFileDownload } from "react-icons/tb";
@@ -20,14 +20,14 @@ const Navbar: React.FC = () => {
   };
 
   return (
-    <nav className=" fixed w-full bottom-0 z-[200] shadow-lg md:shadow-none  md:border-0 md:px-0 md:relative md:bottom-0   md:py-4 lg:px-6  bg-cover bg-no-repeat bg-[image:url(../assets/landingBg.png)]  flex items-center justify-between container mx-auto">
+    <nav className=" fixed w-full bottom-0 z-[200] shadow-lg md:shadow-none  md:border-0 md:px-0 md:relative md:bottom-0   md:py-2 lg:px-6   flex items-center justify-between container mx-auto">
       <div className="flex items-center ml-0">
         <div className=" hidden sm:block mr-2  sm:mr-3">
           <Image src={logo} alt="logo" loading="lazy" width={48} height={38} className='h-11 sm:h-11 sm:w-11 rounded-full' />
         </div>
         <Link href='/' className='hidden sm:block'>
-          <h1 className="font-bold text-sm sm:text-lg text-white">ACE CRM</h1>
-          <p className=" text-[12px] sm:text-sm text-white font-bold">{t('Engineering')}</p>
+          <h1 className="font-bold text-sm sm:text-base text-gray-800">ACE CRM</h1>
+          <p className=" text-[12px] sm:text-sm text-gray-600">{t('Engineering')}</p>
         </Link>
 
       </div>
@@ -42,25 +42,25 @@ const Navbar: React.FC = () => {
 
 
       <div className="hidden lg:flex items-center space-x-8">
-        <Link href="/#features" className="flex items-center text-white font-bold text-sm 2xl:text-base">
+        <Link href="/#features" className="flex items-center text-gray-700 hover:text-gray-900 text-sm 2xl:text-base">
           <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z"></path>
           </svg>
           {t('Features')}
         </Link>
-        <Link href="/#pricing" className="flex items-center text-white font-bold text-sm 2xl:text-base">
+        <Link href="/#pricing" className="flex items-center text-gray-700 hover:text-gray-900 text-sm 2xl:text-base">
           <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M7 7h.01M7 3h5c.512 0 1.024.195 1.414.586l7 7a2 2 0 010 2.828l-7 7a2 2 0 01-2.828 0l-7-7A1.994 1.994 0 013 12V7a4 4 0 014-4z"></path>
           </svg>
           {t('Pricing')}
         </Link>
 
-        <Link href="/#contact" className="flex items-center text-white font-bold text-sm 2xl:text-base">
+        <Link href="/#contact" className="flex items-center text-gray-700 hover:text-gray-900 text-sm 2xl:text-base">
           <RiContactsLine className='mr-1.5  w-5 h-[18px] mb-0.5 ' />
           {t('ContactUs')}
         </Link>
 
-        <Link href="/CRM_Brochure.pdf" className="flex items-center text-white font-bold hover:cursor-pointer text-sm 2xl:text-base " download="/CRM_Brochure.pdf">
+        <Link href="/CRM_Brochure.pdf" className="flex items-center text-gray-700 hover:text-gray-900 hover:cursor-pointer text-sm 2xl:text-base " download="/CRM_Brochure.pdf">
           <TbFileDownload className='mr-1.5  w-5 h-[18px] mb-0.5 ' />
           {t('Brochure')}
         </Link>
@@ -68,17 +68,17 @@ const Navbar: React.FC = () => {
 
 
 
-      <Link href="/signin" className="hidden md:flex lg:hidden items-center ml-64 text-gray-800 font-bold bg-white hover:text-white hover:bg-green-800 p-1 border border-gray-700  rounded-[5px] hover:border-0 ">
+      <Link href="/signin" className="hidden md:flex lg:hidden items-center ml-64 text-gray-700  hover:text-white hover:bg-green-800 p-1 border border-gray-800  rounded-[5px] hover:border-0 ">
         <span className='mr-2'><LuLogIn /></span>
         {t('SignIn')}
       </Link>
 
       <div className="hidden lg:flex items-center space-x-8">
-        <Link href="/signin" className="flex items-center text-gray-800 bg-white text-sm 2xl:text-base hover:text-white hover:bg-green-800 p-1 border border-gray-700  rounded-[5px] px-2 hover:border-0  ">
+        <Link href="/signin" className="flex items-center text-gray-700 text-sm 2xl:text-base hover:text-white hover:bg-green-800 p-1 border border-gray-800  rounded-[5px] px-2 hover:border-0  ">
           <span className='mr-2'><LuLogIn /></span>
           {t('SignIn')}
         </Link>
-        <Link href="mailto:sales@acesoft.in" className="flex items-center text-white font-bold underline lg:hidden xl:flex text-sm 2xl:text-base ">
+        <Link href="mailto:sales@acesoft.in" className="flex items-center text-gray-700 hover:text-gray-900 lg:hidden xl:flex text-sm 2xl:text-base ">
           <svg className="w-5 h-5 mr-1" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path>
           </svg>

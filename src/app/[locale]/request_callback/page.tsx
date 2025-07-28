@@ -158,7 +158,7 @@ const RequestCallback: React.FC = () => {
     <div className="min-h-screen ">
       <Commonbar />
       <div className="container mx-auto "><Header /></div>
-      <div className=" bg-gradient-to-t from-white via-indigo-50 to-purple-50 mt-1 ">
+      <div className=" bg-gradient-to-t from-white via-indigo-50 to-purple-50">
         <div className="flex items-center justify-center pb-24  md:py-16 px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-10 items-start w-full max-w-6xl">
             <div className="flex flex-col justify-center space-y-6 lg:mt-28">
