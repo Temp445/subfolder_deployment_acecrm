@@ -3,7 +3,7 @@ import { NextConfig } from 'next';
 import createNextIntlPlugin from 'next-intl/plugin';
 
 const nextConfig: NextConfig = {
-    // basePath: '/products/ace-customer-relationship-management-system',
+    basePath: '/products/ace-customer-relationship-management-system',
     trailingSlash: true,
     images: {
         remotePatterns: [
