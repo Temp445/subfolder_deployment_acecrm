@@ -1,18 +1,17 @@
 "use client";
 import { FC, useState, useRef, useEffect } from "react";
 import Image from "next/image";
-import logo from "../assets/AceLogo.png";
-
-import { usePathname } from 'next/navigation';
+import logo from "@/assets/AceLogo.png";
+import { setCookie } from 'cookies-next';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import { useLocale } from 'next-intl';
-import { Link } from '@/i18n/navigation';
 import { GoGlobe } from "react-icons/go";
 import { TbChevronDown } from "react-icons/tb";
 import { useTranslations } from "next-intl";
 const Commonbar: FC = () => {
   const t = useTranslations('Menu');
- 
-  const pathname = usePathname();
+  const router = useRouter();
   const currentLocale = useLocale();
   const [isOpen, setIsOpen] = useState(false);
   const dropdownRef = useRef<HTMLDivElement>(null);
@@ -32,7 +31,10 @@ const languages = [
   { code: 'ru', label: 'русский', flag: 'ru' },
 
 ];
-
+const handleLocaleChange = (locale: string) => {
+    setCookie('NEXT_LOCALE', locale, { path: '/' });
+    router.refresh();
+  };
 
   const toggleDropdown = () => setIsOpen(!isOpen);
 
@@ -132,15 +134,13 @@ const languages = [
                 .filter((lang) => lang.code !== currentLocale)
                 .map((lang) => (
                   <li key={lang.code}>
-                    <Link
-                      href={pathname}
-                      locale={lang.code}
+                    <button
+                     onClick={() => handleLocaleChange(lang.code)}
                       className="flex items-center gap-2 px-2 py-1 text-[12px] text-gray-800 hover:bg-blue-50 hover:text-blue-600 transition rounded"
-                      onClick={() => setIsOpen(false)}
                     >
                       <span className={`fi fi-${lang.flag} w-7 h-5 block shadow-sm`} />
                       <span>{lang.label}</span>
-                    </Link>
+                    </button>
                   </li>
                 ))}
             </ul>
