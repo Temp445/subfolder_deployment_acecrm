@@ -1,0 +1,184 @@
+{
+  "Menu": {
+    "ProjectTooltip": "Projekte vereinfachen. Teams stärken.",
+    "CMSTooltip": "Intelligent, einfach und nahtlos – Kalibrierung leicht gemacht",
+    "PPAPTooltip": "Qualität gewährleisten – jedes Teil, jedes Mal.",
+    "AllProducts": "Alle Produkte"
+  },
+  "Header": {
+    "Engineering": "Technische Exzellenz",
+    "Signup": "Kostenlos registrieren",
+    "Features": "Funktionen",
+    "Pricing": "Preise",
+    "ContactUs": "Kontaktieren Sie uns",
+    "Brochure": "Broschüre",
+    "SignIn": "Anmelden"
+  },
+  "Hero": {
+    "Engineering": "Technische Exzellenz",
+    "Title": "Eine neue Ära des nahtlosen CRM",
+    "Subtitle": "Leads erfassen, schneller Abschlüsse erzielen und nie wieder einen Folgekontakt verpassen – alles mit einem leistungsstarken CRM.",
+    "Button": " Gratis testen",
+    "WatchDemo": "Demo ansehen",
+    "BookADemo": "Jetzt eine kostenlose Demo buchen!"
+  },
+  "ToolsSection": {
+    "Title": "In Minuten von Excel zu ACE CRM wechseln",
+    "Subtitle": "Importieren Sie Ihre Daten, überspringen Sie die Lernkurve und starten Sie smarter – alles mit nur wenigen Klicks.",
+    "QuickImport": "Schneller Import",
+    "QuickImportDesc": "Daten ganz einfach über Excel- oder CSV-Dateien aus jedem CRM importieren – ACE CRM erledigt die Integration mühelos.",
+    "SeamlessTransition": "Nahtloser Übergang",
+    "SeamlessTransitionDesc": "Der Wechsel von Excel zu ACE CRM ist schnell und problemlos – ohne komplizierte Setups.",
+    "ProductivityBoost": "Produktivitätssteigerung",
+    "ProductivityBoostDesc": "Optimierte Arbeitsabläufe und Automatisierungen sparen Zeit und erhöhen die Effizienz des Teams.",
+    "EnhancedSecurity": "Erhöhte Sicherheit",
+    "EnhancedSecurityDesc": "Ihre Geschäftsdaten sind mit Sicherheits- und Verschlüsselungsprotokollen auf Unternehmensniveau geschützt."
+  },
+  "FeaturesSection": {
+    "Heading": "Warum ACE CRM die richtige Wahl ist",
+    "Feature1": {
+      "Title": "Entwickelt, um sich sofort vertraut anzufühlen",
+      "Description": "Einfach navigieren, keine Schulung erforderlich – von Anfang an ein reibungsloses, intuitives CRM."
+    },
+    "Feature2": {
+      "Title": "Geben Sie niemals dieselben Daten zweimal ein",
+      "Description": "ACE CRM füllt automatisch aus, synchronisiert und verknüpft Ihre Daten – damit Sie sich aufs Verkaufen konzentrieren können."
+    },
+    "Feature3": {
+      "Title": "Angebote sofort erstellen & teilen",
+      "Description": "Professionell auftreten, schneller abschließen – individuelle Angebote mit nur wenigen Klicks."
+    },
+    "Feature4": {
+      "Title": "Verfolgen Sie die Leistung Ihres Vertriebsteams",
+      "Description": "Leads, Aktivitäten und Abschlüsse überwachen – alles von einem intelligenten Dashboard aus, jederzeit und überall."
+    }
+  },
+  "StatsSection": {
+    "Title": "Vertrauen von wachsenden Unternehmen",
+    "Description": "Tausende Vertriebsteams haben mit ACE CRM ihren Verkaufsprozess transformiert",
+    "ActiveCustomers": "Aktive Kunden",
+    "Years": "Jahre",
+    "Customer": "Kundenzufriedenheit"
+  },
+  "CallToAction": {
+    "Title": "Bereit, Ihren Verkaufsprozess zu transformieren?",
+    "Subtitle": "Starten Sie noch heute Ihre kostenlose Testversion.",
+    "GetStarted": "Jetzt starten",
+    "ContactSales": "Vertrieb kontaktieren"
+  },
+  "Pricing": {
+    "Title": "Preispläne",
+    "Subtitle": "Wählen Sie einen Plan, der zu Ihrem Unternehmen passt",
+    "Monthly": "Monatlich",
+    "Yearly": "Jährlich",
+    "YearlyDiscount": "20 % Rabatt",
+    "FeaturesIncluded": "Enthaltene Funktionen:",
+    "ContactUs": "Kontaktieren Sie uns",
+    "EverythingInPremium": "Alles im Premium-Plan enthalten.",
+    "Customizable": "Vollständig anpassbar an Ihre Bedürfnisse.",
+    "ScheduleReport": "Bericht planen",
+    "ContactSales": "Kontaktieren Sie unser Vertriebsteam für individuelle Lösungen.",
+    "Month": "Monat",
+    "billed": "abgerechnet",
+    "AutoTrigger": "Automatische Erstellung basierend auf Auslöser",
+    "Subscribe": "Jetzt abonnieren",
+    "Contact": "Vertrieb kontaktieren",
+    "FeatureList": "Funktionsliste",
+    "Plans": {
+      "Standard": {
+        "Name": "Standard",
+        "Desc": "Wesentliche Tools für kleine Teams",
+        "Users": "Bis zu 10 Benutzer",
+        "MonthlyPerUser": "( ₹120/Benutzer/Monat )",
+        "YearlyPerUser": "( ₹96/Benutzer/Monat )",
+        "Trial": "Kostenlose 30-Tage-Testversion",
+        "Card": "- keine Kreditkarte erforderlich"
+      },
+      "Premium": {
+        "Name": "Premium",
+        "Desc": "Erweiterte Funktionen für wachsende Teams",
+        "Users": "Bis zu 20 Benutzer",
+        "MonthlyPerUser": "( ₹100/Benutzer/Monat )",
+        "YearlyPerUser": "( ₹80/Benutzer/Monat )",
+        "Trial": "Kostenlose 30-Tage-Testversion",
+        "Card": "- keine Kreditkarte erforderlich",
+        "Tag": "Bester Wert"
+      },
+      "Enterprise": {
+        "Name": "Enterprise",
+        "Desc": "Umfassende Lösung für große Unternehmen"
+      }
+    },
+    "Features": {
+      "standardNote": "(Bis zu 1500)",
+      "premiumNote": "(Bis zu 3000)",
+      "standardNote1": "(1)",
+      "standardNote10": "(Bis zu 10)",
+      "Unlimited": "(Unbegrenzt)",
+      "Excel": "Excel- & Tabellenimport",
+      "LeadTracking": "Lead-Verfolgung",
+      "AdvancedSearch": "Erweiterte Suche & Filter",
+      "TaskAssignment": "Aufgabenvergabe & -verfolgung",
+      "Opportunity": "Verkaufschancen-Verfolgung",
+      "Quotation": "Angebotserstellung",
+      "OrderManagement": "Auftragsverwaltung",
+      "CustomizedQuote": "Anpassbare Angebotsvorlagen",
+      "SalesTeam": "Vertriebsleistung überwachen",
+      "Calendar": "Kalender & Aktivitätserinnerungen",
+      "OneClick": "Berichte & Analysen mit einem Klick",
+      "SecureCloud": "Sichere Cloud-Speicherung",
+      "ScheduleReport": "Bericht planen"
+    }
+  },
+  "ProductEnquire": {
+    "code": "DE",
+    "Title": "Produktanfrage",
+    "Name": "Name",
+    "NamePlaceholder": "Geben Sie Ihren Namen ein",
+    "Company": "Firmenname",
+    "CompanyPlaceholder": "Geben Sie Ihren Firmennamen ein",
+    "Email": "Geschäftliche E-Mail",
+    "EmailPlaceholder": "Geben Sie Ihre geschäftliche E-Mail ein",
+    "Mobile": "Mobilnummer",
+    "Location": "Ihr Standort",
+    "LocationPlaceholder": "Geben Sie Ihren Standort ein",
+    "Product": "Produktinteresse",
+    "Queries": "Anfragen",
+    "QueriesPlaceholder": "Geben Sie Ihre Anfragen ein",
+    "Submit": "Absenden",
+    "Submitting": "Wird gesendet...",
+    "ContactUs": "Kontaktieren Sie uns",
+    "EmailError": "Bitte geben Sie eine gültige E-Mail-Adresse ein.",
+    "PhoneError": "Bitte geben Sie eine gültige Telefonnummer ein.",
+    "Success": "Ihre Nachricht wurde erfolgreich gesendet!",
+    "Failure": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut.",
+    "ValidationUnavailable": "E-Mail-Validierungsdienst nicht verfügbar."
+  },
+  "Footer": {
+    "Title": "Nutzungsbedingungen und Datenschutz",
+    "Rights": "Alle Rechte vorbehalten."
+  },
+
+  "BookDemo": {
+  "BookDemo": "Demo buchen",
+  "ContactUs": "Kontaktieren Sie uns",
+  "para": "Bitte füllen Sie das Formular aus, und ein qualifizierter Produktexperte wird Sie in Kürze kontaktieren, um Ihre Anforderungen zu verstehen und die beste Lösung für Ihr Unternehmen zu empfehlen.",
+  "write": "Sie können uns auch schreiben an:"
+},
+
+"CallbackCard": {
+  "Heading": "Brauchen Sie Hilfe bei der Produktauswahl?",
+  "highlight": "das richtige Produkt",
+  "Subtitle": "Haben Sie Fragen oder Produktbedürfnisse? Wir helfen Ihnen gerne weiter.",
+  "contact": "Kontaktieren Sie uns",
+  "phone": "Telefon",
+  "email": "E-Mail",
+  "Title": "Beliebteste Produkte",
+  "feature1": "Kalibrierungsmanagement-System",
+  "feature2": "Customer Relationship Management",
+  "tagline1": "Steigern Sie die Produktivität mit zuverlässigem Kalibrierungsmanagement.",
+  "tagline2": "Kennen Sie Ihre Kunden. Bauen Sie Vertrauen auf. Wachsen Sie Ihr Geschäft.",
+  "LearnMore": "Mehr erfahren"
+}
+
+}

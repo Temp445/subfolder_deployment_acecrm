@@ -1,0 +1,184 @@
+{
+  "Menu": {
+    "ProjectTooltip": "Simplifiez les projets. Donnez du pouvoir aux équipes.",
+    "CMSTooltip": "Intelligent, simple et fluide — étalonnage facilité",
+    "PPAPTooltip": "Assurer la qualité, chaque pièce, à chaque fois.",
+    "AllProducts": "Tous les produits"
+  },
+  "Header": {
+    "Engineering": "Excellence en ingénierie",
+    "Signup": "Inscription gratuite",
+    "Features": "Fonctionnalités",
+    "Pricing": "Tarification",
+    "ContactUs": "Nous contacter",
+    "Brochure": "Brochure",
+    "SignIn": "Se connecter"
+  },
+  "Hero": {
+    "Engineering": "Excellence en ingénierie",
+    "Title": "Une nouvelle ère de CRM fluide",
+    "Subtitle": "Capturez des prospects, concluez des ventes plus rapidement et ne manquez jamais un suivi — le tout avec un CRM puissant.",
+    "Button": "Essai gratuit",
+    "WatchDemo": "Voir la démo",
+    "BookADemo": "Réservez une démo gratuite dès maintenant !"
+  },
+  "ToolsSection": {
+    "Title": "Passez d’Excel à ACE CRM en quelques minutes",
+    "Subtitle": "Importez vos données, évitez la courbe d’apprentissage et commencez à vendre intelligemment — en quelques clics.",
+    "QuickImport": "Importation rapide",
+    "QuickImportDesc": "Importez facilement des données depuis n'importe quel CRM via des fichiers Excel ou CSV — ACE CRM s'occupe de tout.",
+    "SeamlessTransition": "Transition fluide",
+    "SeamlessTransitionDesc": "Passer d'Excel à ACE CRM est simple et rapide, sans configuration complexe.",
+    "ProductivityBoost": "Gain de productivité",
+    "ProductivityBoostDesc": "Des flux de travail rationalisés et des fonctionnalités d'automatisation vous font gagner du temps et augmentent l'efficacité de votre équipe.",
+    "EnhancedSecurity": "Sécurité renforcée",
+    "EnhancedSecurityDesc": "Vos données sont protégées avec une sécurité de niveau entreprise et des protocoles de chiffrement."
+  },
+  "FeaturesSection": {
+    "Heading": "Pourquoi choisir ACE CRM",
+    "Feature1": {
+      "Title": "Conçu pour être immédiatement familier",
+      "Description": "Navigation facile, aucune formation requise — un CRM intuitif dès le premier jour."
+    },
+    "Feature2": {
+      "Title": "Ne saisissez jamais deux fois les mêmes données",
+      "Description": "ACE CRM remplit automatiquement, synchronise et relie vos données — pour que vous puissiez vous concentrer sur la vente."
+    },
+    "Feature3": {
+      "Title": "Créez et partagez des devis instantanément",
+      "Description": "Soyez professionnel, concluez plus rapidement — devis personnalisés en quelques clics."
+    },
+    "Feature4": {
+      "Title": "Suivez la performance de votre équipe de vente",
+      "Description": "Surveillez les prospects, activités et ventes — tout depuis un tableau de bord intelligent, à tout moment et partout."
+    }
+  },
+  "StatsSection": {
+    "Title": "Fait confiance par des entreprises en croissance",
+    "Description": "Rejoignez des milliers d’équipes commerciales qui ont transformé leur processus de vente avec ACE CRM",
+    "ActiveCustomers": "Clients actifs",
+    "Years": "Années",
+    "Customer": "Satisfaction client"
+  },
+  "CallToAction": {
+    "Title": "Prêt à transformer votre processus de vente ?",
+    "Subtitle": "Commencez votre essai gratuit aujourd'hui.",
+    "GetStarted": "Commencer",
+    "ContactSales": "Contacter les ventes"
+  },
+  "Pricing": {
+    "Title": "Plans tarifaires",
+    "Subtitle": "Choisissez un plan adapté aux besoins de votre entreprise",
+    "Monthly": "Mensuel",
+    "Yearly": "Annuel",
+    "YearlyDiscount": "20% de réduction",
+    "FeaturesIncluded": "Fonctionnalités incluses :",
+    "ContactUs": "Nous contacter",
+    "EverythingInPremium": "Tout ce qui est dans le plan Premium.",
+    "Customizable": "Entièrement personnalisable selon vos besoins.",
+    "ScheduleReport": "Planification de rapports",
+    "ContactSales": "Contactez notre équipe commerciale pour des solutions personnalisées.",
+    "Month": "mois",
+    "billed": "facturé",
+    "AutoTrigger": "Création automatique basée sur des déclencheurs",
+    "Subscribe": "S’abonner maintenant",
+    "Contact": "Contacter les ventes",
+    "FeatureList": "Liste des fonctionnalités",
+    "Plans": {
+      "Standard": {
+        "Name": "Standard",
+        "Desc": "Outils essentiels pour les petites équipes",
+        "Users": "Jusqu'à 10 utilisateurs",
+        "MonthlyPerUser": "( ₹120/Utilisateur/mois )",
+        "YearlyPerUser": "( ₹96/Utilisateur/mois )",
+        "Trial": "Essai gratuit de 30 jours",
+        "Card": "- carte bancaire non requise"
+      },
+      "Premium": {
+        "Name": "Premium",
+        "Desc": "Fonctionnalités avancées pour les équipes en croissance",
+        "Users": "Jusqu'à 20 utilisateurs",
+        "MonthlyPerUser": "( ₹100/Utilisateur/mois )",
+        "YearlyPerUser": "( ₹80/Utilisateur/mois )",
+        "Trial": "Essai gratuit de 30 jours",
+        "Card": "- carte bancaire non requise",
+        "Tag": "Meilleure offre"
+      },
+      "Enterprise": {
+        "Name": "Entreprise",
+        "Desc": "Solution complète pour les grandes entreprises"
+      }
+    },
+    "Features": {
+      "standardNote": "(Jusqu’à 1500)",
+      "premiumNote": "(Jusqu’à 3000)",
+      "standardNote1": "(1)",
+      "standardNote10": "(Jusqu’à 10)",
+      "Unlimited": "(Illimité)",
+      "Excel": "Importation Excel & feuilles de calcul",
+      "LeadTracking": "Suivi des prospects",
+      "AdvancedSearch": "Recherche avancée et filtres",
+      "TaskAssignment": "Affectation et suivi des tâches",
+      "Opportunity": "Suivi des opportunités",
+      "Quotation": "Génération de devis",
+      "OrderManagement": "Gestion des commandes",
+      "CustomizedQuote": "Modèles de devis personnalisés",
+      "SalesTeam": "Suivi des performances commerciales",
+      "Calendar": "Calendrier et rappels d’activité",
+      "OneClick": "Rapports et analyses en un clic",
+      "SecureCloud": "Stockage cloud sécurisé",
+      "ScheduleReport": "Planification de rapports"
+    }
+  },
+  "ProductEnquire": {
+    "code": "FR",
+    "Title": "Demande de produit",
+    "Name": "Nom",
+    "NamePlaceholder": "Entrez votre nom",
+    "Company": "Nom de l'entreprise",
+    "CompanyPlaceholder": "Entrez le nom de votre entreprise",
+    "Email": "E-mail professionnel",
+    "EmailPlaceholder": "Entrez votre e-mail professionnel",
+    "Mobile": "Numéro de téléphone",
+    "Location": "Votre emplacement",
+    "LocationPlaceholder": "Entrez votre emplacement",
+    "Product": "Produit d’intérêt",
+    "Queries": "Questions",
+    "QueriesPlaceholder": "Entrez vos questions",
+    "Submit": "Envoyer",
+    "Submitting": "Envoi en cours...",
+    "ContactUs": "Nous contacter",
+    "EmailError": "Veuillez entrer une adresse e-mail valide.",
+    "PhoneError": "Veuillez entrer un numéro de téléphone valide.",
+    "Success": "Votre message a été envoyé avec succès !",
+    "Failure": "Une erreur s'est produite lors de l'envoi. Veuillez réessayer plus tard.",
+    "ValidationUnavailable": "Service de validation d'e-mail indisponible."
+  },
+  "Footer": {
+    "Title": "Conditions d’utilisation et politique de confidentialité",
+    "Rights": "Tous droits réservés."
+  },
+
+  "BookDemo": {
+  "BookDemo": "Réserver une démo",
+  "ContactUs": "Contactez-nous",
+  "para": "Veuillez remplir le formulaire, un expert produit qualifié vous contactera sous peu pour comprendre vos besoins et recommander la solution la plus adaptée à votre entreprise.",
+  "write": "Vous pouvez également nous écrire à :"
+},
+
+"CallbackCard": {
+  "Heading": "Besoin d’aide pour trouver ce qu’il vous faut ?",
+  "highlight": "le bon produit",
+  "Subtitle": "Vous avez des questions ou des besoins produit ? Nous sommes là pour vous aider.",
+  "contact": "Contactez-nous",
+  "phone": "Téléphone",
+  "email": "Email",
+  "Title": "Produits les plus populaires",
+  "feature1": "Système de gestion de l'étalonnage",
+  "feature2": "Gestion de la relation client",
+  "tagline1": "Boostez la productivité avec une gestion d'étalonnage fiable.",
+  "tagline2": "Connaissez vos clients. Créez la confiance. Développez votre entreprise.",
+  "LearnMore": "En savoir plus"
+}
+
+}

@@ -1,0 +1,183 @@
+{
+  "Menu": {
+    "ProjectTooltip": "Semplifica i progetti. Potenzia i team.",
+    "CMSTooltip": "Intelligente, semplice e senza interruzioni — calibrazione facilitata",
+    "PPAPTooltip": "Garantire la qualità, ogni parte, ogni volta.",
+    "AllProducts": "Tutti i prodotti"
+  },
+  "Header": {
+    "Engineering": "Eccellenza ingegneristica",
+    "Signup": "Registrati gratuitamente",
+    "Features": "Funzionalità",
+    "Pricing": "Prezzi",
+    "ContactUs": "Contattaci",
+    "Brochure": "Brochure",
+    "SignIn": "Accedi"
+  },
+  "Hero": {
+    "Engineering": "Eccellenza ingegneristica",
+    "Title": "Una nuova era di CRM senza interruzioni",
+    "Subtitle": "Acquisisci lead, concludi affari più velocemente e non perdere mai un follow-up — tutto con un potente CRM.",
+    "Button": "Inizia prova",
+    "WatchDemo": "Guarda la demo",
+    "BookADemo": "Prenota una demo gratuita ora!"
+  },
+  "ToolsSection": {
+    "Title": "Passa da Excel ad ACE CRM in pochi minuti",
+    "Subtitle": "Importa i tuoi dati, salta la curva di apprendimento e inizia a vendere in modo più intelligente — tutto in pochi clic.",
+    "QuickImport": "Importazione rapida",
+    "QuickImportDesc": "Importa facilmente i dati da qualsiasi CRM tramite file Excel o CSV — ACE CRM gestisce l'integrazione senza problemi.",
+    "SeamlessTransition": "Transizione senza interruzioni",
+    "SeamlessTransitionDesc": "Il passaggio da Excel ad ACE CRM è rapido e semplice, senza configurazioni complesse.",
+    "ProductivityBoost": "Aumento della produttività",
+    "ProductivityBoostDesc": "Flussi di lavoro ottimizzati e funzionalità di automazione fanno risparmiare tempo e migliorano l'efficienza del team.",
+    "EnhancedSecurity": "Sicurezza avanzata",
+    "EnhancedSecurityDesc": "I tuoi dati aziendali sono protetti da protocolli di sicurezza e crittografia di livello aziendale."
+  },
+  "FeaturesSection": {
+    "Heading": "Perché ACE CRM è la scelta giusta",
+    "Feature1": {
+      "Title": "Progettato per essere subito familiare",
+      "Description": "Navigazione semplice, nessuna formazione necessaria — un CRM intuitivo fin dal primo giorno."
+    },
+    "Feature2": {
+      "Title": "Nessun dato inserito due volte",
+      "Description": "ACE CRM compila automaticamente, sincronizza e collega i tuoi dati — così puoi concentrarti sulla vendita, non sulla digitazione."
+    },
+    "Feature3": {
+      "Title": "Crea e condividi preventivi all’istante",
+      "Description": "Appari professionale, chiudi più velocemente — preventivi personalizzati in pochi clic."
+    },
+    "Feature4": {
+      "Title": "Monitora le prestazioni del team vendite",
+      "Description": "Controlla lead, attività e chiusure — tutto da un’unica dashboard intelligente, sempre e ovunque."
+    }
+  },
+  "StatsSection": {
+    "Title": "Affidato da aziende in crescita",
+    "Description": "Unisciti a migliaia di team di vendita che hanno trasformato il loro processo con ACE CRM",
+    "ActiveCustomers": "Clienti attivi",
+    "Years": "Anni",
+    "Customer": "Soddisfazione del cliente"
+  },
+  "CallToAction": {
+    "Title": "Pronto a trasformare il tuo processo di vendita?",
+    "Subtitle": "Inizia oggi la tua prova gratuita.",
+    "GetStarted": "Inizia ora",
+    "ContactSales": "Contatta le vendite"
+  },
+  "Pricing": {
+    "Title": "Piani tariffari",
+    "Subtitle": "Scegli un piano su misura per le esigenze della tua azienda",
+    "Monthly": "Mensile",
+    "Yearly": "Annuale",
+    "YearlyDiscount": "20% di sconto",
+    "FeaturesIncluded": "Funzionalità incluse:",
+    "ContactUs": "Contattaci",
+    "EverythingInPremium": "Tutto nel piano Premium.",
+    "Customizable": "Completamente personalizzabile in base alle tue esigenze.",
+    "ScheduleReport": "Programmazione report",
+    "ContactSales": "Contatta il nostro team vendite per soluzioni personalizzate.",
+    "Month": "mese",
+    "billed": "fatturato",
+    "AutoTrigger": "Creazione automatica basata su trigger",
+    "Subscribe": "Abbonati ora",
+    "Contact": "Contatta vendite",
+    "FeatureList": "Elenco delle funzionalità",
+    "Plans": {
+      "Standard": {
+        "Name": "Standard",
+        "Desc": "Strumenti essenziali per piccoli team",
+        "Users": "Fino a 10 utenti",
+        "MonthlyPerUser": "( ₹120/Utente/mese )",
+        "YearlyPerUser": "( ₹96/Utente/mese )",
+        "Trial": "Prova gratuita di 30 giorni",
+        "Card": "- nessuna carta di credito richiesta"
+      },
+      "Premium": {
+        "Name": "Premium",
+        "Desc": "Funzionalità avanzate per team in crescita",
+        "Users": "Fino a 20 utenti",
+        "MonthlyPerUser": "( ₹100/Utente/mese )",
+        "YearlyPerUser": "( ₹80/Utente/mese )",
+        "Trial": "Prova gratuita di 30 giorni",
+        "Card": "- nessuna carta di credito richiesta",
+        "Tag": "Miglior valore"
+      },
+      "Enterprise": {
+        "Name": "Enterprise",
+        "Desc": "Soluzione completa per grandi aziende"
+      }
+    },
+    "Features": {
+      "standardNote": "(Fino a 1500)",
+      "premiumNote": "(Fino a 3000)",
+      "standardNote1": "(1)",
+      "standardNote10": "(Fino a 10)",
+      "Unlimited": "(Illimitato)",
+      "Excel": "Importazione Excel & fogli di calcolo",
+      "LeadTracking": "Monitoraggio lead",
+      "AdvancedSearch": "Ricerca avanzata e filtri",
+      "TaskAssignment": "Assegnazione e monitoraggio attività",
+      "Opportunity": "Monitoraggio opportunità",
+      "Quotation": "Generazione di preventivi",
+      "OrderManagement": "Gestione ordini",
+      "CustomizedQuote": "Modelli di preventivo personalizzati",
+      "SalesTeam": "Monitoraggio performance del team vendite",
+      "Calendar": "Calendario e promemoria attività",
+      "OneClick": "Report e analisi con un clic",
+      "SecureCloud": "Archiviazione cloud sicura",
+      "ScheduleReport": "Programmazione report"
+    }
+  },
+  "ProductEnquire": {
+    "code": "IT",
+    "Title": "Richiesta di prodotto",
+    "Name": "Nome",
+    "NamePlaceholder": "Inserisci il tuo nome",
+    "Company": "Nome azienda",
+    "CompanyPlaceholder": "Inserisci il nome della tua azienda",
+    "Email": "Email aziendale",
+    "EmailPlaceholder": "Inserisci la tua email aziendale",
+    "Mobile": "Numero di cellulare",
+    "Location": "La tua posizione",
+    "LocationPlaceholder": "Inserisci la tua posizione",
+    "Product": "Prodotto di interesse",
+    "Queries": "Domande",
+    "QueriesPlaceholder": "Inserisci le tue domande",
+    "Submit": "Invia",
+    "Submitting": "Invio in corso...",
+    "ContactUs": "Contattaci",
+    "EmailError": "Inserisci un indirizzo email valido.",
+    "PhoneError": "Inserisci un numero di telefono valido.",
+    "Success": "Il tuo messaggio è stato inviato con successo!",
+    "Failure": "Si è verificato un problema durante l'invio del messaggio. Riprova più tardi.",
+    "ValidationUnavailable": "Servizio di convalida email non disponibile."
+  },
+  "Footer": {
+    "Title": "Termini di servizio e privacy",
+    "Rights": "Tutti i diritti riservati."
+  },
+  "BookDemo": {
+  "BookDemo": "Prenota una demo",
+  "ContactUs": "Contattaci",
+  "para": "Compila il modulo e un esperto di prodotto qualificato ti contatterà a breve per comprendere le tue esigenze e consigliarti la soluzione più adatta per la tua azienda.",
+  "write": "Puoi anche scriverci a:"
+},
+
+"CallbackCard": {
+  "Heading": "Hai bisogno di aiuto per trovare ciò che ti serve?",
+  "highlight": "il prodotto giusto",
+  "Subtitle": "Hai domande o esigenze di prodotto? Siamo felici di aiutarti.",
+  "contact": "Contattaci",
+  "phone": "Telefono",
+  "email": "Email",
+  "Title": "Prodotti più popolari",
+  "feature1": "Sistema di gestione della calibrazione",
+  "feature2": "Gestione delle relazioni con i clienti",
+  "tagline1": "Aumenta la produttività con una gestione affidabile della calibrazione.",
+  "tagline2": "Conosci i tuoi clienti. Costruisci fiducia. Fai crescere la tua attività.",
+  "LearnMore": "Scopri di più"
+}
+
+}
