@@ -54,7 +54,7 @@ const languages = [
 
   return (
     <>
-      <nav className=" container mx-auto hidden md:flex items-center justify-between md:pt-1.5 pb-1.5  px-4 md:px-0  relative border-b-2 bg-[#fae1d162]">
+      <nav className=" container mx-auto hidden md:flex items-center justify-between md:pt-1.5 pb-2  px-4 md:px-0  relative">
       <div className="flex gap-5">
           <div className="md:flex items-center hidden ">
           <Link href="https://acesoft.in/" className="text-2xl md:text-xl lg:text-2xl xl:text-3xl font-bold text-[#2b2d42] flex gap-1">
@@ -119,7 +119,7 @@ const languages = [
          <div className="relative z-[220]" ref={dropdownRef}>
           <button
             onClick={toggleDropdown}
-            className="flex items-center gap-2 px-2 py-1.5 mr-2 bg-white text-gray-600 border rounded  transition"
+            className="flex items-center gap-2 px-2 py-1.5 mr-2 text-white bg-gray-800 border rounded  transition"
           >
             <GoGlobe  className="w-5 h-5" />
             {languages.find((l) => l.code === currentLocale)?.label}
