@@ -5,7 +5,7 @@ import logo from "../assets/AceLogo.png";
 
 import Link from 'next/link';
 import Image from "next/image";
-
+import { useRouter } from 'next/router';
 import { CgPlayButtonO } from "react-icons/cg";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { useTranslations } from "next-intl";
@@ -21,6 +21,10 @@ export default function Hero() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const t = useTranslations('Hero');
   const locale = useLocale();
+
+  const { basePath } = useRouter();
+  const landingGif = `${basePath}/videos/landingGif.mp4`;
+  const landingGif1 = `${basePath}/videos/landingGif1.mp4`;
   
   const textSize = {
     en: 'text-4xl smm:text-5xl  sml:text-5xl sm:text-4xl   md:text-7xl lg:text-7xl xl:text-[85px] xxl:text-8xl',
@@ -116,7 +120,7 @@ const handleDemoClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): vo
         <div className=" hidden lg:block w-full h-[300px] md:h-[200px] lg:w-[550px] lg:h-[600px] xl:w-[620px] xl:h-[600px]   xl:mt-0  bg-cover bg-no-repeat relative lg:absolute  lg:left-[550px] xxl:left-[800px] 3xl:left-[1000px] xxxl:left-[1000px] xl:left-[650px]  2xl:left-[850px] z-[3]">
           <video
             className="w-full h-full object-cover"
-            src="/videos/landingGif.mp4"
+            src={landingGif}
             autoPlay
             muted
             loop
@@ -127,7 +131,7 @@ const handleDemoClick = (e: React.MouseEvent<HTMLButtonElement, MouseEvent>): vo
         <div className="lg:hidden w-full h-[300px] md:h-[400px] md:w-[650px] lg:w-[720px] lg:h-[700px] opacity-85 bg-cover bg-no-repeat relative lg:absolute  md:left-[50px] lg:left-[800px] z-[32]">
           <video
             className="w-full h-full object-fill px-12 "
-            src="/videos/landingGif1.mp4"
+            src={landingGif1}
             autoPlay
             muted
             loop
