@@ -5,11 +5,15 @@ import logo from "../assets/AceLogo.png";
 
 import Link from 'next/link';
 import Image from "next/image";
-import { useRouter } from 'next/router';
+
 import { CgPlayButtonO } from "react-icons/cg";
 import { IoCloseCircleOutline } from "react-icons/io5";
 import { useTranslations } from "next-intl";
 import { useLocale } from "next-intl";
+import landingGif from '@/assets/videos/landingGif.mp4';
+import landingGif1 from '@/assets/videos/landingGif1.mp4';
+
+
 declare global {
   interface Window {
     gtag: (...args: unknown[]) => void;
@@ -21,10 +25,6 @@ export default function Hero() {
   const videoRef = useRef<HTMLVideoElement | null>(null);
   const t = useTranslations('Hero');
   const locale = useLocale();
-
-  const { basePath } = useRouter();
-  const landingGif = `${basePath}/videos/landingGif.mp4`;
-  const landingGif1 = `${basePath}/videos/landingGif1.mp4`;
   
   const textSize = {
     en: 'text-4xl smm:text-5xl  sml:text-5xl sm:text-4xl   md:text-7xl lg:text-7xl xl:text-[85px] xxl:text-8xl',

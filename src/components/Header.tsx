@@ -26,7 +26,7 @@ const Navbar: React.FC = () => {
           <Image src={logo} alt="logo" loading="lazy" width={48} height={38} className='h-11 sm:h-11 sm:w-11 rounded-full' />
         </div>
         <Link href='/' className='hidden sm:block'>
-          <h1 className="font-bold text-sm sm:text-lg text-white font-bold">ACE CRM</h1>
+          <h1 className="font-bold text-sm sm:text-lg text-white">ACE CRM</h1>
           <p className=" text-[12px] sm:text-sm text-white font-bold">{t('Engineering')}</p>
         </Link>
 
